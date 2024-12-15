@@ -62,7 +62,7 @@ ui <- fluidPage(
   div(class = "title-panel",
       titlePanel("Parkinson's disease treatment for new patients naive to dopaminergic therapy.")
   ),
-  HTML("<p><b>Welcome to the First-Line therapy for Parkinson's Disease (FLIP) tool</b>.<br>This tool is designed to provide data-driven, patient-specific decisions for optimal first-line therapy for patients with early Parkinson's Disease.</p>"),
+  HTML("<p><b>Welcome to the First-Line therapy for Parkinson's Disease (FLIP) tool</b>.<br>This tool is designed to provide data-driven, patient-specific decisions for optimal first-line therapy for patients with early Parkinson's Disease. This tool should be considered a prototype only and not be used in practice at this time.</p>"),
   p("Please refer to the tables below to see relevant summary statistics from the training data. To input patient data and view results, please navigate to the second tab."),
   tabsetPanel(
     tabPanel("Baseline Covariates and Treatment Effects",
