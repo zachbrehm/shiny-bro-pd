@@ -11,7 +11,7 @@ library(tidyr)
 # Load training data and betas
 training_data <- readRDS("data/training_data.Rds")
 training_betas <- readRDS("data/training_betas.Rds")
-ref_tau_seq <- round(seq(0.31, 0.52, 0.01), digits = 2)
+ref_tau_seq <- round(seq(0.30, 0.52, 0.01), digits = 2)
 
 # Helper functions
 standardize <- function(x) {
