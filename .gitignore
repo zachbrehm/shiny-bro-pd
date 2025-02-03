@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+app_fancier.R
+app_old.R
+app_prototype.R
